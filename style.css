@@ -1,0 +1,94 @@
+:root{
+    --font-title: "Cinzel Decorative", serif;
+    --font-text: "Poppins", sans-serif;
+    --font-navbar: "Staatliches", sans-serif;
+    --font-other-text: "Lato", sans-serif;
+    
+    --color-dark-purple: #0F0B16;
+    --color-light-purple: #430744;
+    --color-light-wine: #730F3F;
+    --color-bg-card-orange: #DE3A3B;
+    --color-orange: #F07D3C;
+    --color-yellow: #FAD962;
+}
+
+/* FORMATAÇÃO E ESTILIZAÇÃO DE ELEMENTOS NA PÁGINA */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-text);
+    background-color: var(--color-dark-purple);
+}
+
+h1{
+    font-family: var(--font-title);
+    color: var(--color-yellow);
+    text-align: center;
+    font-size: 80px;
+    
+}
+h2{
+    font-family: var(--font-title);
+    color: var(--color-yellow);
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    font-family: var(--font-other-text);
+    color: var(--color-yellow);
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    font-family: var(--font-title);
+    color: var(--color-orange);
+    font-size: 40px;
+}
+demonstration-title{
+    padding-top: 5px;
+}
+
+span{
+    color: var(--color-orange);
+}
+
+/* FORMATAÇÃO E ESTILIZAÇÃO DE ELEMENTOS NA PÁGINA */
+
+
+/* COMEÇO NAVBAR */
+.navbar-style{
+    background-color: var(--color-light-wine);
+    font-family: var(--font-navbar);
+    font-size: 25px;
+    align-content: center;
+    
+}
+.nav-link{
+    color: var(--color-yellow);
+    
+}
+.navbar .nav-link:hover{
+    color: #f8e291 ;
+}
+
+/* FIM NAVBAR */
+
+
+
+ /* COMEÇO - CONTEÚDOS DA PÁGINAS  */
+
+.content-page{
+    background-color: var(--color-light-purple);
+}
+
+.initial-page{
+    margin: 25vh;
+}
+
+/* FIM CONTEÚDOS DA PÁGINA */
+
+
+
