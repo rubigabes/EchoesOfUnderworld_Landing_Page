@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echoes of Underworld</title>
+    <link rel="shortcut icon" href="./images/EoU_Site_Logo_2_svg.svg" type="image/x-icon">
 
     <!-- Fontes usadas na composição do site -->
 
@@ -42,155 +43,202 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- JavaScript para o carousel - Bootstrap pede! -->
-     <script src="script.js"></script>
 </head>
 
-<body>
 
-    <!-- COMEÇO NAVBAR -->
 
-    <section class="navbar-style">
-        <nav class="navbar navbar-expand">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/images/EoU_Site_Logo.png"
-                        alt="Logo do jogo Echoes of Underworld"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto gap-5">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#DEMONSTRAÇÃO">DEMONSTRAÇÃO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE O JOGO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONHEÇA A EQUIPE</a>
-                        </li>
-                    </ul>
-                </div>
+<!-- COMEÇO NAVBAR -->
+
+
+<section class="navbar-style">
+    <nav class="navbar navbar-expand">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/EoU_Site_Logo.png"
+                    alt="Logo do jogo Echoes of Underworld"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#DEMONSTRAÇÃO">DEMONSTRAÇÃO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ABOUT">SOBRE O JOGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#TEAM">CONHEÇA A EQUIPE</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </section>
+        </div>
+    </nav>
+</section>
 
-    <!-- FIM DA NAVBAR -->
+<!-- FIM DA NAVBAR -->
 
 
-    <!-- Início da página -->
-    <section class="initial-page">
+<!-- Início da página -->
 
-        <h1><span>Echoes</span> Of UnderWorld</h1>
-        <h2>Um Mundo de <span>Descobertas</span> o espera</h2>
 
-    </section>
 
-    <!-- Início da página -->
+<section class="initial-page">
 
-    <!-- SOBRE O JOGO -->
-    <section class="content-page">
-        {
-        <h3>SOBRE O JOGO</h3>
-        <h4>Echoes <span class="yellow-span">of UnderWorld</span></h4>
+    <h1><span>Echoes</span> Of UnderWorld</h1>
+    <h2>Um Mundo de <span>Descobertas</span> o espera</h2>
 
-     <div class="about-game-elements">
+</section>
+
+<!-- Início da página -->
+
+
+<!-- SOBRE O JOGO -->
+<section class="content-page">
+
+    <h3 id="ABOUT" class="about-game-title">SOBRE O JOGO</h3>
+    <h4>Echoes <span class="yellow-span">of UnderWorld</span></h4>
+
+    <div class="about-game-elements">
         <div class="about-game-text">
-            <h5> <span class="yellow-span">Echoes of Underworld</span> é um jogo que será inicialmente desenvolvido para
+            <h5> <span class="yellow-span">Echoes of Underworld</span> é um jogo que será inicialmente
+                desenvolvido para
                 dispositivos ‘mobile’ com a intenção de ser algo fácil e viciante para um público que busca bons
                 personagens e ambientação criativa.
-                Trazendo uma temática antiga em um contexto novo, <span class="yellow-span">‘EoU’</span> promete uma
+                Trazendo uma temática antiga em um contexto novo, <span class="yellow-span">‘EoU’</span> promete
+                uma
                 narrativa fácil de se entender, possibilitando que o jogador foque por completo em uma gameplay
                 divertida e descomplicada, mesmo que trazendo diversas opções de personalização.</h5>
         </div>
 
-     <div class="carousel-geral">
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <div class="carousel-geral">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-        </div>
-        </div>
-        }
+    </div>
+</section>
+
+<!-- FIM SEÇÃO SOBRE O JOGO -->
+
+<section class="initial-page">
 
 
 
+</section>
+<!-- separação de conteúdos da página por outra cor -->
+<section class="content-page">
 
-    </section>
-    <section class="initial-page"></section>
-    <!-- separação de conteúdos da página por outra cor -->
-    <section class="content-page">
+    <!-- SEÇÃO CARDS DE PERSONAGENS -->
+    <h3 class="demonstration-title">DEMONSTRAÇÃO</h3>
+    <h4 id="DEMONSTRAÇÃO">Personagem Jogável e Inimigo</h4>
 
-        <!-- SEÇÃO CARDS DE PERSONAGENS -->
-        <h3 class="demonstration-title">DEMONSTRAÇÃO</h3>
-        <h4 id="DEMONSTRAÇÃO">Personagens Jogáveis</h4>
-
-        <div class="card1" style="width: 40rem;">
-            <img src="images/EoU_personagem.png" class="card-img-top" alt="...">
+    <section class="cards">
+        <div class="card" style="width: 30rem;">
+            <img src="/images/EoU_cenario1.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
+                <h2 class="card-title">HERÓI</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et quos accusamus
+                    optio, fugit expedita soluta quaerat ad incidunt impedit dolore, animi tempora praesentium
+                    reprehenderit repudiandae accusantium aliquid, corrupti adipisci aperiam facere consequatur alias ex
+                    placeat consequuntur! Quis eos maiores porro accusamus accusantium, optio modi magni fugiat
+                    consequuntur sed commodi.</p>
             </div>
         </div>
 
-        <!-- FIM SEÇÃO CARDS DE PERSONAGENS -->
 
+
+        <div class="card" style="width: 30rem;">
+            <img src="/images/EoU_enemy.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2 class="card-title">Inimigo simples</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et quos accusamus
+                    optio, fugit expedita soluta quaerat ad incidunt impedit dolore, animi tempora praesentium
+                    reprehenderit repudiandae accusantium aliquid, corrupti adipisci aperiam facere consequatur alias ex
+                    placeat consequuntur! Quis eos maiores porro accusamus accusantium, optio modi magni fugiat
+                    consequuntur sed commodi.</p>
+            </div>
+        </div>
     </section>
-    <!-- separação de conteúdos da página por outra cor -->
+    <!-- FIM SEÇÃO CARDS DE PERSONAGENS -->
 
-    <!-- FIM NAVBAR -->
+</section>
+
+<section class="footer">
+    <footer class="footer-style">
+        <div class="footer-container">
+            <img src="/images/EoU_Site_logo.png" alt="logo do jogo localizada no footer">
+            <div class="footer-items">
+                <h6 class="footer-title">Páginas</h6>
+                <p class="footer-text">Sobre o Jogo</p>
+                <p class="footer-text">Demonstração</p>
+                <p class="footer-text">Conheça a Equipe</p>
+            </div>
+
+            <div class="footer-items">
+                <h6 class="footer-title">Contato</h6>
+                <p class="footer-text">cabalteamstudios@gmail.com</p>
+                <p class="footer-text">www.EoU.com.br</p>
+            </div>
+        </div>
+        <hr>
+
+        <h6>Copyright © 2025 Echoes of Underworld. Direitos Reservados.</h6>
+    </footer>
+</section>
+
+
+<!-- separação de conteúdos da página por outra cor -->
 
 
 
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 
-
-
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
-
-    
+<!-- JavaScript para o carousel - Bootstrap pede! -->
+<script src="script.js"></script>
 </body>
 
 </html>
