@@ -253,6 +253,66 @@ span{
 /* FIM PERSONAGEM JOGÁVEL E INIMIGOS */
 
 
+/* COMEÇO DA SEÇÃO DE CONHEÇA A EQUIPE */
+
+.meet-team-title{
+    padding-top: 2vh;
+}
+
+
+.cards-team{
+    margin: 0;
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    
+
+    
+}
+.cards-team .card-body{
+    background-color: var(--color-light-wine);
+}
+.cards-team .card:hover{
+    filter: drop-shadow(var(--color-orange) 0 0 20px);
+    scale: 1.0;
+}
+
+.team-role{
+    font-size: 30px;
+    font-family: var(--font-text);
+  
+}
+.team-name{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 2vh;
+   
+}
+.cards-team .card-text{
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
+    filter: opacity(0.7);
+}
+.card a{
+    background-color: var(--color-light-wine);
+    padding-bottom: 2vh;
+}
+.card a img{
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+
+/* FIM DA SEÇÃO DE CONHEÇA A EQUIPE  */
+
+
 /* FIM CONTEÚDOS DA PÁGINA */
 
 /* COMEÇO FOOTER */
