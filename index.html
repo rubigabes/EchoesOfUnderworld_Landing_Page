@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echoes of Underworld</title>
     <link rel="shortcut icon" href="./images/EoU_Site_Logo_2_svg.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- Fontes usadas na composição do site -->
 
@@ -51,10 +53,11 @@
 
 
 <section class="navbar-style">
-    <nav class="navbar navbar-expand">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/images/EoU_Site_Logo.png"
-                    alt="Logo do jogo Echoes of Underworld"></a>
+            <a class="navbar-brand" href="#">
+                <img src="/images/EoU_Site_Logo.png" alt="Logo do jogo Echoes of Underworld">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,7 +68,7 @@
                         <a class="nav-link" href="#ABOUT">SOBRE O JOGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#DEMONSTRAÇÃO">DEMONSTRAÇÃO</a>
+                        <a class="nav-link" href="#DEMONSTRAÇÃO">DEMONSTRAÇÃO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#TEAM">CONHEÇA A EQUIPE</a>
@@ -118,29 +121,26 @@
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
+                        <img src="images/EoU_bg.png" class="d-block w-100"
+                            alt="Ilustração do submundo presente dentro do jogo">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Submundo: Centro</h5>
+                            <p>Um submundo colossal e opressor, iluminado por tons roxos e vermelhos, com rios de lava
+                                dourada e uma estrutura central pulsante, onde raízes rubras se espalham como veias
+                                malignas em um território vivo, antigo e perigoso.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
+                        <img src="images/EoU_dungeon.png" class="d-block w-100"
+                            alt="Ilustração das masmorras presentes no jogo">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/EoU_cenario1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Masmorras do submundo</h5>
+                            <p>As masmorras do submundo se revelam em corredores de pedra sombria, marcados por
+                                correntes e tochas flamejantes, criando um ambiente de tensão e perigo constante.</p>
                         </div>
                     </div>
                 </div>
@@ -174,28 +174,30 @@
 
     <section class="cards">
         <div class="card" style="width: 30rem;">
-            <img src="/images/EoU_cenario1.png" class="card-img-top" alt="...">
+            <img src="/images/EoU_cenario1.png" class="card-img-top"
+                alt="ilustração do personagem jogável dentro do jogo">
             <div class="card-body">
                 <h2 class="card-title">HERÓI</h2>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et quos accusamus
-                    optio, fugit expedita soluta quaerat ad incidunt impedit dolore, animi tempora praesentium
-                    reprehenderit repudiandae accusantium aliquid, corrupti adipisci aperiam facere consequatur alias ex
-                    placeat consequuntur! Quis eos maiores porro accusamus accusantium, optio modi magni fugiat
-                    consequuntur sed commodi.</p>
+                <p class="card-text">Um ex-cavaleiro do império de Inora, povo que cultua o brilho da lua acima de tudo,
+                    mas ele irá por a honra antes de qualquer divindade. Maicon se aperfeiçoou na arte de cortes únicos
+                    e pesados, usando pouca da essência lunar que resta em si para exterminar as criaturas do Submundo.
+                    Com 30 anos físicos, mede 1,83m de altura, cabelo castanho curto, olhos azul índigo, possui Físico
+                    forte, usa roupas leves para aumentar a mobilidade, mas ainda mantém pedaços de armadura que
+                    auxiliam em proteção parcial, usa um cachecol azul indigo longo e desbotado.</p>
             </div>
         </div>
 
 
 
         <div class="card" style="width: 30rem;">
-            <img src="/images/EoU_enemy.png" class="card-img-top" alt="...">
+            <img src="/images/EoU_enemy.png" class="card-img-top" alt="Ilustração do Inimigo dentro do jogo">
             <div class="card-body">
                 <h2 class="card-title">Inimigo simples</h2>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque et quos accusamus
-                    optio, fugit expedita soluta quaerat ad incidunt impedit dolore, animi tempora praesentium
-                    reprehenderit repudiandae accusantium aliquid, corrupti adipisci aperiam facere consequatur alias ex
-                    placeat consequuntur! Quis eos maiores porro accusamus accusantium, optio modi magni fugiat
-                    consequuntur sed commodi.</p>
+                <p class="card-text">Um fragmento corrompido dos antigos rituais lunares de Inora. Antes servia como um
+                    olho vigilante, mensageiro entre os templos, mas foi consumido pela essência do Submundo. Agora,
+                    transformado em uma criatura voadora, vaga incessantemente em busca de presas para satisfazer a
+                    escuridão que o guia. Seu olhar fixo perfura a alma dos viajantes, drenando sua força de vontade,
+                    enquanto suas asas frágeis o sustentam apenas o suficiente para caçar em bandos.</p>
             </div>
         </div>
     </section>
@@ -211,7 +213,8 @@
 
     <div class="cards-team">
         <div class="card" style="width: 30rem;">
-            <img src="./images/" class="card-img-top" alt="Foto de perfil do desenvolvedor Athur Gobbetti">
+            <img src="./images/EoU_Arthur.jpg" class="card-img-top"
+                alt="Foto de perfil do desenvolvedor Athur Gobbetti">
             <div class="card-body">
                 <h2 class="team-name">Arthur Gobbetti <span class="team-role">Programador</span></h2>
                 <p class="card-text">Pilar técnico do desenvolvimento, foi responsável por programar todas as
@@ -219,12 +222,14 @@
                     transformando ideias e conceitos visuais em mecânicas jogáveis e sistemas sólidos. Seu trabalho
                     garantiu que a jogabilidade fosse fluida, envolvente e alinhada com a proposta artística, unindo
                     lógica, criatividade e inovação para dar vida ao coração do projeto.</p>
-                
+
             </div>
-            <a href="https://www.instagram.com/arthgoblou" target="_blank" rel="noopener noreferrer"><img src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
+            <a href="https://www.instagram.com/arthgoblou" target="_blank" rel="noopener noreferrer"><img
+                    src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
         </div>
         <div class="card" style="width: 30rem;">
-            <img src="./images/" class="card-img-top" alt="Foto de perfil do desenvolvedor Guilherme Casarini">
+            <img src="./images/EoU_Guilherme.jpg" class="card-img-top"
+                alt="Foto de perfil do desenvolvedor Guilherme Casarini">
             <div class="card-body">
                 <h2 class="team-name">Guilherme Casarini <span class="team-role">Artista</span></h2>
                 <p class="card-text">O criador da identidade visual de Echoes of Underworld, responsável por cada
@@ -234,12 +239,14 @@
                     jogabilidade caminhassem lado a lado. Seu trabalho foi essencial para transformar conceitos em um
                     mundo visual coeso e memorável.
                 </p>
-                
+
             </div>
-            <a href="https://www.instagram.com/cafe.draws_" target="_blank" rel="noopener noreferrer"><img src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
+            <a href="https://www.instagram.com/cafe.draws_" target="_blank" rel="noopener noreferrer"><img
+                    src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
         </div>
         <div class="card" style="width: 30rem;">
-            <img src="./images/" class="card-img-top" alt="Foto de perfil do desenvolvedor Gabriel Rubio">
+            <img src="./images/EoU_Gabriel.jpg" class="card-img-top"
+                alt="Foto de perfil do desenvolvedor Gabriel Rubio">
             <div class="card-body">
                 <h2 class="team-name">Gabriel Rubio <span class="team-role">Programador</span></h2>
                 <p class="card-text">Responsável pelo desenvolvimento completo do site oficial de Echoes of Underworld,
@@ -248,9 +255,10 @@
                     programar todo o menu do jogo, garantindo uma navegação intuitiva e consistente com a identidade
                     visual.</p>
 
-               
+
             </div>
-             <a href="https://www.instagram.com/whosaidrubio" target="_blank" rel="noopener noreferrer"><img src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
+            <a href="https://www.instagram.com/whosaidrubio" target="_blank" rel="noopener noreferrer"><img
+                    src="./images/EoU_Instagram_icon.png" alt="ícone do instagram"></a>
 
         </div>
     </div>
@@ -266,9 +274,15 @@
             <img src="/images/EoU_Site_logo.png" alt="logo do jogo localizada no footer">
             <div class="footer-items">
                 <h6 class="footer-title">Páginas</h6>
-                <p class="footer-text">Sobre o Jogo</p>
-                <p class="footer-text">Demonstração</p>
-                <p class="footer-text">Conheça a Equipe</p>
+                <a href="#ABOUT">
+                    <p class="footer-text">Sobre o Jogo</p>
+                </a>
+                <a href="#DEMONSTRAÇÃO">
+                    <p class="footer-text">Demonstração</p>
+                </a>
+                <a href="#TEAM">
+                    <p class="footer-text">Conheça a Equipe</p>
+                </a>
             </div>
 
             <div class="footer-items">
