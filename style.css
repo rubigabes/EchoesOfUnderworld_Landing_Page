@@ -57,11 +57,13 @@ h3{
     color: var(--color-yellow);
     font-size: 40;
     font-weight: bold;
+    padding-left: 2vh;
 }
 h4{
     font-family: var(--font-title);
     color: var(--color-orange);
     font-size: 60px;
+    padding-left: 2vh;
 }
 h5{
     font-family: var(--font-text);
@@ -98,11 +100,13 @@ span{
     font-family: var(--font-navbar);
     font-size: 25px;
     align-content: center;
+     padding-right: 20vh;
     
     
 }
 .nav-link{
     color: var(--color-yellow);
+   
     
     
 }
@@ -110,6 +114,11 @@ span{
     color: #f8e291 ;
 }
 
+.navbar img{
+    width: 60%;
+    
+    
+}
 
 
 /* FIM NAVBAR */
